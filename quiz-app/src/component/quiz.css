@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+  }
+  
+  li:hover {
+    background-color: #ddd;
+  }
+  
+  .selected {
+    background-color: #b3e5fc;
+  }
+  
+  .button{
+    background-color: #0dbc72;
+    border-radius: 20px;
+    width: 15%;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #0dbc72;
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+  .button-disable{
+    border-radius: 20px;
+    width: 20%;
+    cursor: not-allowed;
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+  .correct-option {
+    background-color: #c8e6c9; /* Light green */
+  }
+  
+  .incorrect-option {
+    background-color: red; /* Light red */
+  }
+  .errorNew
+  {
+    background-color: red;
+  }
